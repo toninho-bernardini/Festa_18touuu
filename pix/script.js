@@ -3,6 +3,7 @@ function delay() {
 }
 
 async function geraPix() {
+    document.getElementById('numero').hidden = false;
     document.querySelector(".pix").hidden = true;
     document.querySelector(".carregamento").hidden = false;
     await delay();
