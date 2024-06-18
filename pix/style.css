@@ -1,0 +1,276 @@
+/** {
+    margin: 0;
+    padding: 0;
+  }
+
+#t{
+    border-radius: 100%;
+    width: 30%;
+    height: 150px;
+    background-color: black;
+    color: yellow;
+}
+
+.container{
+    text-align: center;
+    margin-top: 17%;
+}
+/* body{
+    background-image: url("Design\ sem\ nome.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+} */
+ /*
+#btn{
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #b70000;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+#btn:hover{
+    background-color: #9a0808;
+
+}
+.divona{
+    text-align: center;
+    border: 2px solid black;
+    width: 23%;
+    height: 600px;
+    border-radius: 2%;
+    position: absolute;
+    z-index: 5; 
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.834);
+    opacity: 80%;
+    color: white;
+    backdrop-filter: blur(80%);
+}
+.grandona{
+    display: flex;
+    justify-content: center;
+    
+}
+label{
+    display: block;
+    font-size: large;
+
+}
+div{
+    margin-top: 2%;
+}
+input{
+    width: 85%;
+    height: 30px;
+    font-size: large;
+    font-family: "Alata", sans-serif;
+    font-weight: 400;
+    font-style: normal;}
+#comprar{
+    margin-top: 5%;
+    background-color: #06b700;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: "Alata", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+#comprar:hover{
+    background-color: #069a01;
+
+}
+
+#piquiti{
+    height: 150px;
+}
+
+h6{
+    margin-top: 3%;
+}
+#link{
+    color: green;
+    font-family: "Alata", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .notable-regular {
+    font-family: "Alata", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+#copia{
+    width: 7%;
+}
+#copia:hover{
+    cursor: pointer;
+}
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Garante que padding e border não afetem as dimensões dos elementos */
+}
+
+#t {
+    border-radius: 100%;
+    width: 30%;
+    height: 150px;
+    background-color: black;
+    color: yellow;
+    margin: 0 auto; /* Centraliza horizontalmente */
+}
+
+.container {
+    text-align: center;
+    margin-top: 10%; /* Reduzi a margem superior para melhorar a visualização em telas menores */
+}
+
+#btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #b70000;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#btn:hover {
+    background-color: #9a0808;
+}
+
+.divona {
+    text-align: center;
+    border: 2px solid black;
+    width: 80%; /* Ajustei para 80% para melhorar a adaptação em telas menores */
+    max-width: 600px; /* Limita a largura máxima para evitar que fique muito largo em telas grandes */
+    height: 600px;
+    border-radius: 2%;
+    position: absolute;
+    z-index: 5;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.834);
+    opacity: 0.8; /* Ajustei para usar decimal ao invés de porcentagem */
+    color: white;
+    backdrop-filter: blur(8px); /* Ajustei o valor do blur */
+}
+
+.grandona {
+    display: flex;
+    justify-content: center;
+}
+
+label {
+    display: block;
+    font-size: large;
+}
+
+div {
+    margin-top: 2%;
+}
+
+input {
+    width: 85%;
+    height: 30px;
+    font-size: large;
+    font-family: "Alata", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#comprar {
+    margin-top: 5%;
+    background-color: #06b700;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: "Alata", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#comprar:hover {
+    background-color: #069a01;
+}
+
+#piquiti {
+    height: 150px;
+}
+
+h6 {
+    margin-top: 3%;
+}
+
+#link {
+    color: green;
+    font-family: "Alata", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.notable-regular {
+    font-family: "Alata", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#copia {
+    width: 7%;
+}
+
+#copia:hover {
+    cursor: pointer;
+}
+
+/* Media Queries para tornar responsivo */
+@media (max-width: 768px) {
+    .container {
+        margin-top: 15%;
+    }
+    
+    .divona {
+        width: 90%;
+        max-width: 90%;
+        height: auto;
+        top: 10%;
+    }
+}
+
+@media (max-width: 480px) {
+    #t {
+        width: 50%;
+    }
+
+    .container {
+        margin-top: 25%;
+    }
+    
+    .divona {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        top: 20%;
+    }
+}
